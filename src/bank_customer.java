@@ -5,9 +5,9 @@ class negativeAmountException extends Exception{
 }
 public class bank_customer {
     int acc_no;
-    String name="kannu priya";
+    String name="your name";
     double balance=0.0;
-    int branch_code=1906481;
+    int branch_code=0000;
     int amount;
     public void deposit(int amount){
         balance=balance+amount;
